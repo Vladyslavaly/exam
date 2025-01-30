@@ -821,7 +821,7 @@ body {
   background-position: calc(0% + 20px) calc(0% + 20px), calc(100% - 20px) calc(100% - 20px);
 }
 
-/* Адаптація для планшетів */
+
 @media (max-width: 992px) {
   .features-grid {
     grid-template-columns: 1fr;
@@ -841,7 +841,7 @@ body {
   }
 }
 
-/* Адаптація для телефонів */
+
 @media (max-width: 768px) {
   .features-grid {
     grid-template-columns: 1fr;
@@ -867,7 +867,6 @@ body {
   }
 }
 
-/* Адаптація для дуже маленьких екранів */
 @media screen and (max-width: 576px) {
   .features-grid {
     grid-template-columns: 1fr;
@@ -1250,6 +1249,7 @@ text-align: left;
   border: 2px solid #9C69E2;
   overflow: hidden;
   position: relative;
+
   cursor: url('/lesson444/img/cursor.svg'), pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }

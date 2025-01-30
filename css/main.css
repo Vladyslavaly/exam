@@ -985,7 +985,6 @@ body {
   background-position: calc(0% + 20px) calc(0% + 20px), calc(100% - 20px) calc(100% - 20px);
 }
 
-/* Адаптація для планшетів */
 @media (max-width: 992px) {
   .features-grid {
     grid-template-columns: 1fr;
@@ -1001,7 +1000,6 @@ body {
     font-size: 14px;
   }
 }
-/* Адаптація для телефонів */
 @media (max-width: 768px) {
   .features-grid {
     grid-template-columns: 1fr;
@@ -1022,7 +1020,6 @@ body {
     text-align: center;
   }
 }
-/* Адаптація для дуже маленьких екранів */
 @media screen and (max-width: 576px) {
   .features-grid {
     grid-template-columns: 1fr;

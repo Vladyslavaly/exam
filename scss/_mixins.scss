@@ -1,0 +1,68 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin button-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 23px;
+  gap: 20px;
+  border-radius: 50px;
+  border: 2px solid $primary-color;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+@mixin link-style($color, $size: 16px, $weight: 500) {
+  color: $color;
+  text-decoration: none;
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $font-primary;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+@mixin burger-icon-style {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: $burger-gap;
+  padding: 10px;
+}
+
+@mixin hero-header-style($size) {
+  font-family: $font-secondary;
+  font-size: $size;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: $hero-text-color;
+  margin: 0;
+}
+
+
+@mixin hero-desc-style($size) {
+  font-family: $font-primary;
+  font-size: $size;
+  font-weight: 500;
+  color: $hero-desc-color;
+  line-height: 1.6em;
+  margin-bottom: 50px;
+  max-width: 370px;
+}
+
+
+@mixin hero-btn-style($padding) {
+  background-color: $primary-color;
+  padding: $padding;
+  border: 2px solid $primary-color;
+  border-radius: 50px;
+  color: $white;
+  font-family: $font-primary;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: url('/lesson222/img/cursor.svg'), pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
